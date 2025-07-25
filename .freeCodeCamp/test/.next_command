@@ -76,3 +76,33 @@ __vsc_prompt_cmd_original
 ./insert_data.sh
 ./queries.sh
 ./queries.sh
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+git init
+git add worldcup.sql insert_data.sh queries.sh
+git commit -m "World Cup Database project"
+__vsc_prompt_cmd_original
+git push -u origin main
+ect/.git/
+__vsc_prompt_cmd_original
+git push -u ocamper: /project$ git add worldcup.sql insert_data.sh queries.sh
+rigin maincamper: /project$ git commit -m "World Cup Database project"
+[master 15112d3] World Cup Database project
+__vsc_prompt_cmd_original
+create mode 100644 worldcup.sql
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+git init
+git add worldcup.sql insert_data.sh queries.sh
+git commit -m "World Cup Database project"
+git remote add origin https://github.com/iliaAmin/worldcup_database.git
+git push -u origin maingit push -u origin master
+git push -u origin master
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+chmod +x insert_data.sh queries.sh
+git add insert_data.sh queries.sh
+git commit -m "Make scripts executable"
+git pushrm -rf .freeCodeCamp .vscode .gitignore expected_output.txt games.csv
+git add -A
